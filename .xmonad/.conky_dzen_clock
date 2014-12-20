@@ -1,0 +1,12 @@
+background no
+out_to_console yes
+out_to_x no
+update_interval 1
+total_run_times 0
+mpd_host 192.168.0.5
+mpd_port 6600
+
+TEXT
+Cpu: ${cpu}% (${freq}MHz) Mem: ${memperc}%  Net: ${if_up enp3s0f2} e: ${downspeedf enp3s0f2} / ${upspeedf enp3s0f2} ${endif} ${if_up wlp2s0} w: ${downspeedf wlp2s0} / ${upspeedf wlp2s0} ${endif} Bat: ${battery}  ${time %a %b %d %H:%M}
+
+
